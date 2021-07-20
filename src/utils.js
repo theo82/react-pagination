@@ -9,7 +9,7 @@ const paginate = (followers) => {
     return followers.slice(start, start + itemsPerPage)
   })
 
-  console.log(newFollowers)
+  return newFollowers
 }
 
 export default paginate
